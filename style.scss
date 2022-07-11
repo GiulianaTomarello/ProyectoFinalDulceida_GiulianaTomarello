@@ -66,3 +66,74 @@ nav{
         color: #a39789;
     }
 }
+
+section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .card-body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    .boton_seccion{
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 1px solid rgba(0, 0, 0, 0.9);
+    }
+
+    .boton_seccion:hover{
+        background-color: #a39789;
+        border: 2px solid #a39789;
+    }
+ }
+
+ .informacion{
+    background-color: #ededed;
+    margin-top: 100px;
+
+    i{
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .titulo_article{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .texto_article{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+ }
+
+ .texto_ayuda{
+    background-color: #a39789;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+ }
+
+ footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    .bi{
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        transition: 1s all;
+    }
+    .nav-link{
+        color: white;
+    }
+    .nav-link:hover{
+        color: #a39789;
+    }
+    .bi:hover{
+        transform: scale(1.1);
+    }
+ }
+
+ 
+
+
