@@ -52,4 +52,68 @@ nav .navbar-brand {
 nav .navbar-brand:hover {
   transform: scale(1.1);
   color: #a39789;
+}
+
+section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+section .card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+section .boton_seccion {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+}
+section .boton_seccion:hover {
+  background-color: #a39789;
+  border: 2px solid #a39789;
+}
+
+.informacion {
+  background-color: #ededed;
+  margin-top: 100px;
+}
+.informacion i {
+  font-size: 40px;
+  margin-left: 30px;
+}
+.informacion .titulo_article {
+  font-size: 20px;
+  margin-left: 30px;
+}
+.informacion .texto_article {
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.texto_ayuda {
+  background-color: #a39789;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+footer .bi {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  transition: 1s all;
+}
+footer .nav-link {
+  color: white;
+}
+footer .nav-link:hover {
+  color: #a39789;
+}
+footer .bi:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
